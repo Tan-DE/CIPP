@@ -134,5 +134,17 @@
   },
   "mimeTypes": {
     ".json": "text/json"
+  },
+  "networking": {
+    "allowedIpRanges": [
+      "87.191.137.18/32",
+      "178.13.233.30/32",
+      "130.180.83.86/32",
+      "130.180.66.90/32",
+      "2a02:248:106:210a::/64",
+      "AppService",
+      "AzureKeyVault",
+      "AzureActiveDirectory"
+    ]
   }
 }
